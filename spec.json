@@ -1,0 +1,15 @@
+{
+  "title": "Keycloak Access Proof",
+  "slug": "access-keycloak-proof-v3",
+  "description": "A minimal protected app used to verify the reviewed Keycloak deployment path.",
+  "access": {
+    "mode": "keycloak",
+    "anonymous": []
+  },
+  "runtime_shape": "identity",
+  "data_reach": "invented",
+  "blast_radius": "low",
+  "scopes": [],
+  "tier": "green",
+  "rationale": "Uses only the platform identity layer and invented proof content, with no external data or outbound side effects."
+}
