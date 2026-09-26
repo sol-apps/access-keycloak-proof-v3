@@ -1,6 +1,6 @@
 /// <reference path="../pb_data/types.d.ts" />
 /*
- * main.pb.js — server-side hooks for {{SLUG}}. THIS FILE RUNS ON THE SERVER.
+ * main.pb.js — server-side hooks for access-keycloak-proof-v3. THIS FILE RUNS ON THE SERVER.
  *
  * Runtime is PocketBase 0.39's embedded Goja VM: no npm, no Node APIs, no async.
  * You get PocketBase's own helpers — $app, routerAdd, cronAdd, onRecordCreate,
